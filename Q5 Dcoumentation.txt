@@ -1,0 +1,45 @@
+
+First of all, this calculator doesn't perform multiple operations in a single instruction. Also, the input need that there's not spaces bettwen 
+characters.
+
+This calculator has many mathematical functions, the syntax will be described bellow....
+
+Aritemtic functions:
+ Add: x+y  where x and y are real numbers.
+ Subtract: x-y  where x and y are real numbers.
+ Multiplication: x*y  where x and y are real numbers.
+ Division: x/y  where x and y are real numbers.
+ Power: x^y  where x and y are real numbers.
+ Root: x|y  where x and y are real numbers -> (radicand|index).
+ Decimal log: :logd(x) where x is a real number.
+ Natural log: :logn(x) where x is a real number.
+
+Vector algebra:
+ Cross Product: [x,y,z]x[x,y,z] where x, y and z are real numbers.
+ Vectorial add: [x,y,z]+[x,y,z] where x, y and z are real numbers.
+ Vectorial subtract: [x,y,z]-[x,y,z] where x, y and z are real numbers.
+ Vectorial multiplication: [x,y,z]*[x,y,z] where x, y and z are real numbers.
+ Vectorial division: [x,y,z]/[x,y,z] where x, y and z are real numbers.
+
+Trigonometric functions:
+ Sine: :sine(x) where x is a real number.
+ Cosine: :cosi(x) where x is a real number.
+ Tan: :tang(x) where x is a real number.
+ Arctan: :actg(x) where x is a real number.
+ Csc: :csct(x) where x is a real number.
+ Sec: :sect(x) where x is a real number.
+ Cotg: :cotg(x) where x is a real number.
+ Arcsin: :acsi(x) where x is a real number.
+ Arccos: :acos(x) where x is a real number.
+ Arcsec: :asec(x) where x is a real number.
+ Arccsc: :acsc(x) where x is a real number.
+ Arccot: :acct(x) where x is a real number.
+
+To operate with an aritmetic answer saved in memory, type: ans+x where x is a real number.
+To operate with a vector answer saved in memory, type: ans+x where x is a real number or
+Also you can type: vans+[x,y,z] if the previous answer corresponds to a cross product.
+
+There will probably be some margin of error in some values of the arc trigonometric functions, we will work on it.
+																												
+Type 's' to exit.
+Type 'clear' to clean the screen.
